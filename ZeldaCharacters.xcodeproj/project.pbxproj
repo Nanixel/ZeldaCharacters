@@ -12,6 +12,17 @@
 		1843B3C420C57C6600338D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1843B3C220C57C6600338D1D /* Main.storyboard */; };
 		1843B3C620C57C6600338D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1843B3C520C57C6600338D1D /* Assets.xcassets */; };
 		1843B3C920C57C6600338D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1843B3C720C57C6600338D1D /* LaunchScreen.storyboard */; };
+		1843B3D920C57CCC00338D1D /* Revali.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843B3D220C57CCC00338D1D /* Revali.png */; };
+		1843B3DA20C57CCC00338D1D /* Daruk.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843B3D320C57CCC00338D1D /* Daruk.png */; };
+		1843B3DB20C57CCC00338D1D /* Zeldabg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843B3D420C57CCC00338D1D /* Zeldabg.png */; };
+		1843B3DC20C57CCC00338D1D /* Mipha.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843B3D520C57CCC00338D1D /* Mipha.png */; };
+		1843B3DD20C57CCC00338D1D /* Urbosa.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843B3D620C57CCC00338D1D /* Urbosa.png */; };
+		1843B3DE20C57CCC00338D1D /* Zelda.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843B3D720C57CCC00338D1D /* Zelda.png */; };
+		1843B3DF20C57CCC00338D1D /* Link.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843B3D820C57CCC00338D1D /* Link.png */; };
+		1843B3E120C584DD00338D1D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843B3E020C584DD00338D1D /* Character.swift */; };
+		1843B3E420C5854100338D1D /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843B3E320C5854100338D1D /* UIButtonX.swift */; };
+		1843B3E820C5860C00338D1D /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843B3E720C5860C00338D1D /* CharacterCell.swift */; };
+		1843B3EA20C58C2D00338D1D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843B3E920C58C2D00338D1D /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		1843B3C520C57C6600338D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1843B3C820C57C6600338D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1843B3CA20C57C6600338D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1843B3D220C57CCC00338D1D /* Revali.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Revali.png; sourceTree = "<group>"; };
+		1843B3D320C57CCC00338D1D /* Daruk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Daruk.png; sourceTree = "<group>"; };
+		1843B3D420C57CCC00338D1D /* Zeldabg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zeldabg.png; sourceTree = "<group>"; };
+		1843B3D520C57CCC00338D1D /* Mipha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mipha.png; sourceTree = "<group>"; };
+		1843B3D620C57CCC00338D1D /* Urbosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Urbosa.png; sourceTree = "<group>"; };
+		1843B3D720C57CCC00338D1D /* Zelda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zelda.png; sourceTree = "<group>"; };
+		1843B3D820C57CCC00338D1D /* Link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Link.png; sourceTree = "<group>"; };
+		1843B3E020C584DD00338D1D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		1843B3E320C5854100338D1D /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		1843B3E720C5860C00338D1D /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		1843B3E920C58C2D00338D1D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,65 @@
 		1843B3BD20C57C6600338D1D /* ZeldaCharacters */ = {
 			isa = PBXGroup;
 			children = (
+				1843B3E620C585E100338D1D /* Views */,
+				1843B3E520C5857E00338D1D /* Controllers */,
+				1843B3E220C5851C00338D1D /* Designables */,
+				1843B3D120C57C7D00338D1D /* Resources */,
+				1843B3D020C57C7500338D1D /* Models */,
 				1843B3BE20C57C6600338D1D /* AppDelegate.swift */,
-				1843B3C020C57C6600338D1D /* ViewController.swift */,
 				1843B3C220C57C6600338D1D /* Main.storyboard */,
 				1843B3C520C57C6600338D1D /* Assets.xcassets */,
 				1843B3C720C57C6600338D1D /* LaunchScreen.storyboard */,
 				1843B3CA20C57C6600338D1D /* Info.plist */,
 			);
 			path = ZeldaCharacters;
+			sourceTree = "<group>";
+		};
+		1843B3D020C57C7500338D1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1843B3E020C584DD00338D1D /* Character.swift */,
+				1843B3E920C58C2D00338D1D /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1843B3D120C57C7D00338D1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1843B3D320C57CCC00338D1D /* Daruk.png */,
+				1843B3D820C57CCC00338D1D /* Link.png */,
+				1843B3D520C57CCC00338D1D /* Mipha.png */,
+				1843B3D220C57CCC00338D1D /* Revali.png */,
+				1843B3D620C57CCC00338D1D /* Urbosa.png */,
+				1843B3D720C57CCC00338D1D /* Zelda.png */,
+				1843B3D420C57CCC00338D1D /* Zeldabg.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1843B3E220C5851C00338D1D /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				1843B3E320C5854100338D1D /* UIButtonX.swift */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		1843B3E520C5857E00338D1D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1843B3C020C57C6600338D1D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1843B3E620C585E100338D1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1843B3E720C5860C00338D1D /* CharacterCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +196,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1843B3DA20C57CCC00338D1D /* Daruk.png in Resources */,
+				1843B3DD20C57CCC00338D1D /* Urbosa.png in Resources */,
+				1843B3D920C57CCC00338D1D /* Revali.png in Resources */,
+				1843B3DC20C57CCC00338D1D /* Mipha.png in Resources */,
 				1843B3C920C57C6600338D1D /* LaunchScreen.storyboard in Resources */,
+				1843B3DE20C57CCC00338D1D /* Zelda.png in Resources */,
 				1843B3C620C57C6600338D1D /* Assets.xcassets in Resources */,
+				1843B3DF20C57CCC00338D1D /* Link.png in Resources */,
 				1843B3C420C57C6600338D1D /* Main.storyboard in Resources */,
+				1843B3DB20C57CCC00338D1D /* Zeldabg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1843B3E820C5860C00338D1D /* CharacterCell.swift in Sources */,
+				1843B3EA20C58C2D00338D1D /* Data.swift in Sources */,
+				1843B3E420C5854100338D1D /* UIButtonX.swift in Sources */,
+				1843B3E120C584DD00338D1D /* Character.swift in Sources */,
 				1843B3C120C57C6600338D1D /* ViewController.swift in Sources */,
 				1843B3BF20C57C6600338D1D /* AppDelegate.swift in Sources */,
 			);
